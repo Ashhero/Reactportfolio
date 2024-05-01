@@ -32,9 +32,10 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/akash-sherigar-b7427323a"><i className="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/akash_devadiga_01"><i className="fa-brands fa-instagram"></i></a>
                 <a href="https://twitter.com/SherigarAkash"><i className="fa-brands fa-x-twitter"></i></a>
+                <a href="https://github.com/Ashhero"><i class="fa-brands fa-github"></i></a>
               </div>
               <div className="btn">
-                <a href="https://drive.google.com/file/d/1A70T4O3Fffh06FyHaKX6UAtdVkkwVBU7/view?usp=drive_link" download>
+                <a href="https://drive.google.com/file/d/1Yq1TCGtcWAOaPD2hXYvn8xfStKrjI2sq/view?usp=sharing" download>
                   <button className="cy">Download Resume</button>
                 </a>
               </div>
@@ -52,7 +53,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="copyright">
-        <p>Copyright © Akash. Made With <i class="fa-solid fa-heart"></i> by referring Google and Youtube. </p>
+        <p>Copyright © Akash.<i class="fa-solid fa-heart"></i> </p>
       </div>
       {/* Additional form (duplicate) - you may remove this */}
       <form name="submit-to-google-sheet"></form>
