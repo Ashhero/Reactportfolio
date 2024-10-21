@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './Akashabout.png';
+import logo from './profile.png';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState('Skills');
@@ -31,18 +31,26 @@ export default function About() {
                 <ul>
                   <li><span>Front-End Development</span>
                     <ol>
-                      <li id="front">HTML, CSS, Javascript, React</li>
+                      <li id="front">Javascript, React, Redux, Tailwind CSS</li>
                     </ol>
                   </li>
                   <li><span>Back-End Development</span></li>
                   <ol>
-                    <li id="front">Java, Python, Monogodb, SQL</li>
+                    <li id="front">Express, Node, Monogodb, SQL</li>
                   </ol>
                   {/* <li><span>Time Management</span></li> */}
                 </ul>
               </div>
               <div className={`tab-contents ${activeTab === 'Certification' ? 'active-tab' : ''}`} id="Certification">
                 <ul>
+                <li><span>FrontEnd Development Libraries</span></li>
+                  <a href="https://drive.google.com/file/d/1mocp8cjpTeVF-bST_ScZAKdRsRGGRFU_/view?usp=drive_link" download>
+                    <button>View Certificate</button>
+                  </a>
+                  <li><span> The MERN Fullstack-React, NodeJS, Express & MongoDB </span></li>
+                  <a href="https://drive.google.com/file/d/1woiV8byOlqx9VBIXIML3gzVay8T73Nmz/view?usp=drive_link" download>
+                    <button>View Certificate</button>
+                  </a>
                   <li><span>Machine Learning with Python</span></li>
                   <a href="https://drive.google.com/file/d/10qkh2omVqKCNCjV326K6qAIS2Osm8ksP/view?usp=drive_link" download>
                     <button>View Certificate</button>
@@ -51,15 +59,8 @@ export default function About() {
                   <a href="https://drive.google.com/file/d/1hgyP8DrUNdBrD0_FSxIsaUmOF7y79lha/view?usp=drive_link" download>
                     <button>View Certificate</button>
                   </a>
-                  <li><span>Matlab machine learning onramp</span></li>
-                  <a href="https://drive.google.com/file/d/1eQ4xKrg3fNP9RMgngrRDA0UwITwzaQZA/view?usp=drive_link" download>
-                    <button>View Certificate</button>
-                  </a>
-                  <li><span>Matlab deeplearning</span></li>
-                  <a href="https://drive.google.com/file/d/1woiV8byOlqx9VBIXIML3gzVay8T73Nmz/view?usp=drive_link" download>
-                    <button>View Certificate</button>
-                  </a>
-
+                  
+                  
                 </ul>
               </div>
               <div className={`tab-contents ${activeTab === 'Education' ? 'active-tab' : ''}`} id="Education">

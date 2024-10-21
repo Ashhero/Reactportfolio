@@ -26,7 +26,7 @@ body{
   background-size: cover;
   background-position: center;
 } 
-#header video {
+#bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,6 +35,7 @@ body{
   object-fit: cover;
   z-index: -1;
   display:block;
+  border-radius: 5px;
 }
 #container{
   padding: 10px 10%;
@@ -60,6 +61,9 @@ nav ul li{
   margin: 10px 20px;
   
 }
+nav ul{
+  margin-right: -120px;
+}
 nav ul li a{
   color: red;
   text-decoration:none;
@@ -81,7 +85,7 @@ nav ul li a:hover::after{
   width:100%;
 }
 #header-text{
-  margin-top:20%;
+  margin-top:7%;
   margin-right:30%;
   font: size 30px;
 }
@@ -115,6 +119,7 @@ nav ul li a:hover::after{
 }
 .about-col2{
   flex-basis:60%;
+
 }
 .subtitle{
 font-size: 60px;
@@ -181,6 +186,7 @@ margin:20px 0 40px;
   border-radius: 6px;
   text-decoration: none;
   margin-bottom: 10px;  
+  border:none;
   
   
 }
@@ -231,6 +237,73 @@ padding-right: 50px;
     background-color: #ff004f;
     transform:translatey(-10px);
 }
+/* ---------------------------experience---------------------------------- */
+#experience
+{
+padding:10px;
+padding-left: 50px;
+padding-right: 50px;
+margin-top: 80px;
+}
+.experience-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+}
+.experience-list div{
+    background: #262626;
+    padding:40px;
+    font-weight: 13px;
+    border-radius: 20px;
+    border-right: 10px;
+    transition: background 0.5s,transform 0.5s;
+}
+.experience-list div i{
+    font-size: 50px;
+    margin-bottom:30px ;
+}
+.experience-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.experience-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.experience-list div:hover{
+    background-color: #ff004f;
+    transform:translatey(-10px);
+}
+.btnex{
+  display:block;
+  width:20%;
+  border-radius: 10px;
+  /* margin-top: 20px; */
+  background-color: #ff004f;
+  color:#ffff;
+  padding:15px 5px;
+  margin-top:20px;
+  border: none;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.experience-list div:hover .btnex {
+  background-color: #fff;
+  
+}
+.experience-list div:hover .btnex a{
+  
+  color:#ff004f
+}
+
  /* -----------------------portfolio----------------------------------- */
 #portfolio{
     /* padding:50px 0; */
@@ -288,6 +361,7 @@ transform: scale(1.1);
 .work:hover .layer{
   height: 100%;
 }
+
 
 /* -----------------------Contact-------------------------------------------------------- */
 #contact{
@@ -350,6 +424,7 @@ transform: scale(1.1);
   background-color: #ff004f;
   color:#ffff;
   padding: 5px 3px;
+  border:none;
  
 }
 /* .btn a button:hover{
@@ -367,6 +442,7 @@ transform: scale(1.1);
   background-color: #ff004f;
   color:#ffff;
   padding:5px 5px;
+  border:none;
 }
 /* .contact-right form button:hover{
   background-color: #ff004f;
@@ -406,6 +482,7 @@ form input,form textarea{
 }
 #text{
   margin-bottom: 25px; 
+  border: none;
 }
 
 /* ----------------------------Mobile----------------------------- */
@@ -549,6 +626,11 @@ form input,form textarea{
     #portfolio{
      margin-left:-27px;
         }
+    #experience{
+      padding-left: 20px;
+    }
+    .btnex{
+      width:40%    }
     
     
     
