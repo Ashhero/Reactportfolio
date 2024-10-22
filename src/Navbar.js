@@ -36,7 +36,7 @@ export default function Navbar() {
           </nav>
           <div id="header-text">
             <h3>FullStack Developer</h3>
-            <h1>Hi, I'm <span>Sherigar Akash Shankar</span></h1>
+            <h1>Hi, I'm <span>Sherigar Akash<br/> Shankar</span></h1>
           </div>
         </div>
       </div>

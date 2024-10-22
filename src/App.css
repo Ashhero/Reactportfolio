@@ -53,7 +53,8 @@ nav{
 #logo{
   width: 60px;
   border-radius: 60px;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 40px;
 }
 nav ul li{
   display: inline-block;
@@ -577,6 +578,9 @@ form input,form textarea{
     #about{
       padding-left: 10px;
     }
+    #logo{
+      margin-top: 5px;
+    }
     .subtitle{
         font:30px;
     }
@@ -632,6 +636,11 @@ form input,form textarea{
     .btnex{
       width:40%    }
     
-    
+      .layer h2{
+        margin-top: 30px;
+      }
+      .layer p{
+        margin-bottom: -40px;
+      }
     
 }
