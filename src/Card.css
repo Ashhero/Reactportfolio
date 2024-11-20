@@ -1,0 +1,76 @@
+/* From Uiverse.io by ilkhoeri */
+.wrapper {
+    width: 100%;
+    height: 100vh; /* Make sure it fills the viewport */
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+     /* padding-top: 200px; */
+    
+  }
+  
+  .inner {
+    --w: 170px;
+    --h: 170px;
+    --translateZ: calc((var(--w) + var(--h)) + 0px);
+    --rotateX: 0deg;
+    --perspective: 500px;
+    position: absolute;
+    width: var(--w);
+    height: var(--h);
+    top: 25%;
+    left: calc(50% - (var(--w) / 2) - 2.5px);
+    z-index: 2;
+    transform-style: preserve-3d;
+    transform: perspective(var(--perspective));
+    animation: rotating 30s linear infinite;
+    margin-top: 170px; 
+   
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: perspective(var(--perspective)) rotateX(var(--rotateX)) rotateY(0);
+    }
+    to {
+      transform: perspective(var(--perspective)) rotateX(var(--rotateX)) rotateY(1turn);
+    }
+  }
+  
+  .card {
+    position: absolute;
+    border: 2px solid rgba(var(--color-card)); /* Uses dynamic color */
+    border-radius: 12px;
+    overflow: hidden;
+    inset: 0;
+    transform: rotateY(calc((360deg / var(--quantity)) * var(--index))) 
+                translateZ(calc(var(--translateZ) - 50px)); /* Decrease Z distance */
+   
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: radial-gradient(circle, rgba(var(--color-card), 0.2) 0%, rgba(var(--color-card), 0.6) 80%, rgba(var(--color-card), 0.9) 100%);
+  }
+  @media (max-width: 480px) {
+    .inner {
+      --w: 100px; /* Further decrease width */
+      --h: 100px; /* Further decrease height */
+      --translateZ: calc((var(--w) + var(--h)) + 0px);
+      --perspective: 300px; /* Adjust perspective for mobile */
+    }
+  
+    .card {
+      border-radius: 8px; /* Even smaller radius */
+    }
+  
+    .img {
+      background-size: cover;
+      background-position: center;
+    }
+  }

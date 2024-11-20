@@ -15,7 +15,7 @@ export default  function Experience(){
                     •   I utilized Figma for web design, incorporating animations and crafting responsive webpages while leveraging Tailwind CSS. Designed and managed a relational database schema to store data related to detected DDoS attacks, accuracy testing results.<br/>
                     •	I managed Firebase for data storage and utilized its hosting capabilities for deploying web applications.</p>
 
-                    <button className="btnex" ><a href="https://nicozn.com/" target="_blank"  rel="noopener noreferrer" style={{marginTop:"-10px"}} >Know More</a></button>
+                    <button className="btnew" ><a href="https://nicozn.com/" target="_blank"  rel="noopener noreferrer" style={{marginTop:"-10px"}} >Know More</a></button>
                     {/* <a href="#">Learn more</a> */}
                 </div>
                 <div>
@@ -27,7 +27,7 @@ export default  function Experience(){
                     •	Implemented backend services and APIs using Express.js.<br/>
                     •	Conducted testing and debugging to ensure high performance and user experience.</p>
 
-                    <button className="btnex" ><a href="https://www.accoladetechsolutions.com/" target="_blank"  rel="noopener noreferrer"style={{marginTop:"-10px"}}>Know More</a></button>
+                    <button className="btnew" ><a href="https://www.accoladetechsolutions.com/" target="_blank"  rel="noopener noreferrer"style={{marginTop:"-10px"}}>Know More</a></button>
                 </div>
                 {/* <div>
                     <i className="fa-brands fa-dev"></i>

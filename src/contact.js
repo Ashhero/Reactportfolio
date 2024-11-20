@@ -35,7 +35,7 @@ export default function Contact() {
                 <a href="https://github.com/Ashhero"><i class="fa-brands fa-github"></i></a>
               </div>
               <div className="btn">
-                <a href="https://drive.google.com/file/d/18PWlqt5bcgTyBGoK6czy_fzvxm7nYVWD/view?usp=sharing" download>
+                <a href="https://drive.google.com/file/d/13sAAfVOIDaXWP_WYBP2uypVXpFfrnDT0/view?usp=sharing" download>
                   <button className="cy">View Resume</button>
                 </a>
               </div>

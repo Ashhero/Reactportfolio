@@ -194,7 +194,7 @@ margin:20px 0 40px;
 #study{
   margin-bottom: 30px;
 }
-
+/* -----------------------Cards--------------------------------------------------------- */
 /* --------------------services--------------------------------------------------- */
 
 #services
@@ -281,7 +281,7 @@ margin-top: 80px;
     background-color: #ff004f;
     transform:translatey(-10px);
 }
-.btnex{
+.btnew{
   display:block;
   width:20%;
   border-radius: 10px;
@@ -293,14 +293,14 @@ margin-top: 80px;
   border: none;
   align-items: center;
   justify-items: center;
-  
+
 }
 
-.experience-list div:hover .btnex {
+.experience-list div:hover .btnew {
   background-color: #fff;
   
 }
-.experience-list div:hover .btnex a{
+.experience-list div:hover .btnew a{
   
   color:#ff004f
 }
@@ -579,7 +579,7 @@ form input,form textarea{
       padding-left: 10px;
     }
     #logo{
-      margin-top: 5px;
+      margin-top: 20px;
     }
     .subtitle{
         font:30px;
@@ -634,13 +634,14 @@ form input,form textarea{
       padding-left: 20px;
     }
     .btnex{
-      width:40%    }
+      width:40%
+        }
     
       .layer h2{
         margin-top: 30px;
       }
-      .layer p{
+      /* .layer p{
         margin-bottom: -40px;
-      }
+      } */
     
 }

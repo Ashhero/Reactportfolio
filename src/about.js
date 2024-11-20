@@ -48,7 +48,7 @@ export default function About() {
                     <button>View Certificate</button>
                   </a>
                   <li><span> The MERN Fullstack-React, NodeJS, Express & MongoDB </span></li>
-                  <a href="https://drive.google.com/file/d/1woiV8byOlqx9VBIXIML3gzVay8T73Nmz/view?usp=drive_link" download>
+                  <a href="https://drive.google.com/file/d/1uMa6joe2gLTF36B8cEpwTRuf9bwtF3p_/view?usp=sharing" download>
                     <button>View Certificate</button>
                   </a>
                   <li><span>Machine Learning with Python</span></li>
